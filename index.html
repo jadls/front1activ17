@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formularios</title>
+</head>
+<body>
+<header>
+    <h6>20% de descuento en todos los productos!</h6>
+    <div><img src="img/Logo.png" alt="logo"><span>Nombre Tienda</span></div>
+    <nav>
+        <a href="#">Contacto</a>
+        <a href="#">Registrarme</a>
+        <a href="#">Ingresar</a>
+    </nav>
+</header>
+<main>
+    <form action="registro" autocomplete="off">
+        <h1>Añadí tu super</h1>
+        <br>
+        <h4>Agregá tu personaje favorito completandolas opciones</h4>
+        <br>
+        <div class="paquete">
+            <div class="grupo">
+                <div class="etiqueta">
+                    <label for="name">*Nombre</label>
+                </div>
+                <div class="campo">
+                    <input type="text" name="nombreyapellido" required id="name" style="border: none">
+                </div>
+            </div>
+            <div class="grupo">
+                <div class="etiqueta">
+                    <label for="especie">*Especie</label>
+                </div>
+                <div class="campo">
+                <select name="" required id="" style="border: none">
+                <optgroup label="Especie">
+                    <option value="aaa">Especie aaa</option>
+                    <option value="bbb">fspecie bbb</option>
+                    <option value="ccc">sspecie ccc</option>
+                </optgroup>
+                </select>
+                </div>
+            </div>
+        </div>
+        <div class="paquete">
+            <div class="grupo">
+                <div class="etiqueta">
+                    <label for="date">Fecha</label>
+                </div>
+                <div class="campo">
+                    <input type="date" name="fechaparaback" id="date" style="border: none">
+                </div>
+            </div>
+            <div class="grupo">
+                <div class="etiqueta">
+                    <label for="foto">Agregar foto</label>
+                </div>
+                <div class="campo-file">
+                    <input type="file" name="foto" accept=".jpg" multiple>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="paquete">
+            <div class="grupo">
+            <textarea class="comentarios" name="" id="" cols="44" rows="15" placeholder="Comentarios"></textarea>
+            </div>
+            <div class="grupo">
+                <h3 class="etiqueta">Poderes</h3>
+                <div class="etiqueta">                
+                    <label for="check">
+                        <input type="checkbox" name="" id="check">
+                        Volar
+                    </label>
+                </div>
+                <div class="etiqueta">
+                    <label for="check">                
+                        <input type="checkbox" name="" id="check">
+                        Superinteligencia
+                    </label>
+                </div>
+                <div class="etiqueta">
+                    <label for="check">              
+                        <input type="checkbox" name="" id="check">
+                        Vista de rayo láser
+                    </label>
+                </div>
+                <div class="etiqueta">
+                    <label for="check">               
+                        <input type="checkbox" name="" id="check">
+                        Billetera gorda
+                    </label>
+                </div>
+                
+                <br>
+                                
+                <h3 class="etiqueta">Tipos de personaje</h3>
+                <div class="etiqueta">
+                    <label for="radio">
+                    <input type="radio" name="unico" id="" value="Heroe">
+                    Héroe / Heroína</label>
+                </div>
+                <div class="etiqueta">
+                    <label for="radio">
+                    <input type="radio" name="unico" id="" value="Villano">
+                    Villano / Villana</label>
+                </div>
+            </div>
+        </div>
+        <div class="button"> 
+            <button type="submit">Añadir</button>
+        </div>
+        <button class="reset" type="reset">borrar</button>
+    </form>
+</main>
+<footer>
+    <h6>Todos los derechos reservados FRONT END I</h6>
+</footer>
+    
+</body>
+</html>

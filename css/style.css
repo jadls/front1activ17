@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h6{
+    background: #1CD1B0;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+header div{
+    background: #00669F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+header nav{
+    padding-right: 15px;
+    background: #001D2D;
+    text-align: end;
+}
+header nav a{
+    height: 40px;
+    text-decoration:none;
+    color: white;
+    font-size: 16px;
+}
+main, body{
+    background: #E5E5E5;
+}
+form{
+    position: relative;
+    width: 954px;
+    height: 632px;
+    left: 180px;
+    top: 40px;
+
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+}
+h1{
+    text-align: center;
+    color: #FBFFFD;
+}
+form h4{
+    text-align: center;
+    color: #FBFFFD;
+}
+.paquete{
+    display: flex;
+    justify-content:flex-start;  
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    padding-left: 80px;
+
+}
+.campo input:focus,
+.campo select:focus,
+.comentarios:focus{
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+}
+.campo input,
+.campo select{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 343px;
+    height: 50px;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+
+}
+.campo-file{
+    width: 223px;
+    height: 32px;
+    color: black;
+    background: #CECECE;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.comentarios{
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    background: #FFFFFF;
+    padding-top: 10px;
+}
+.etiqueta{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.etiqueta label[for="check"]:hover,
+.etiqueta label[for="radio"]:hover
+{
+    background: #001D2D;
+    transition: 500ms;
+    color: #1CD1B0;
+    font-size: 20px;
+}
+.button button:hover
+{
+    background: #001D2D;
+    transition: 500ms;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+button{
+    cursor: pointer;
+    width: 366px;
+    height: 67px;
+    font-size: 28px;
+    font-weight: bold;    
+    background: #1CD1B0;
+    border-radius: 23.011px;
+}
+.reset{
+    width: 35px;
+    height: 15px;
+    font-size: 12px;
+    font-weight:200;    
+    background: #00669F;
+    border: none;
+    margin-top: 10px;
+    margin-left: 460px;
+}
+footer{
+    height: 60px;
+    background:  #00669F;
+    color:  #FFF9F9;
+    font-size: 16px;
+    padding-top: 19px;
+    text-align: center;
+    margin-top: 70px;
+}
